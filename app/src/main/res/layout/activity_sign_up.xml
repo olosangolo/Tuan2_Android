@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignUp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account"
+        android:textAlignment="center"
+        android:layout_marginTop="67dp"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="21dp"
+        android:text="Full name"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="223dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="Full name"
+        android:textSize="16dp"
+        android:background="@drawable/vien"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="260dp"
+        android:layout_marginHorizontal="48dp"
+        />
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="21dp"
+        android:text="Email"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="317dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="Email"
+        android:textSize="16dp"
+        android:background="@drawable/vien"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="347dp"
+        android:layout_marginHorizontal="48dp"
+        />
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="21dp"
+        android:text="Password"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="397dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="Password"
+        android:textSize="16dp"
+        android:background="@drawable/vien"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="427dp"
+        android:layout_marginHorizontal="48dp"
+        />
+    <Button
+        android:id="@+id/button_validate"
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:text="Validate"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18dp"
+        android:layout_marginTop="490dp"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ?"
+        android:textAlignment="center"
+        android:layout_marginTop="588dp"
+        android:textColor="@color/yellow"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="578dp"
+        android:textColor="@color/yellow"
+        android:layout_marginHorizontal="295dp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <TextView
+        android:id="@+id/skipnow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip for now"
+        android:textAlignment="center"
+        android:layout_marginTop="640dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
